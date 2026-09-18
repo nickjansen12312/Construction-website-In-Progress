@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Missouri State</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="logo-area">
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">MS</span>
+                <span>Missouri State</span>
+            </a>
+        </div>
+
+       <nav class="main-nav">
+
+            <div class="nav-dropdown">
+                <a href="about.html">ABOUT <span>⌄</span></a>
+
+                <div class="dropdown-menu">
+                    <a href="about.html">Our Story</a>
+                    <a href="team.html">Meet the Team</a>
+                    <a href="culture.html">Culture & Values</a>
+                    <a href="awards.html">Awards</a>
+                </div>
+            </div>
+
+            <a href="safety.html">SAFETY</a>
+
+            <div class="nav-dropdown">
+                <a href="services.html">SERVICES <span>⌄</span></a>
+
+                <div class="dropdown-menu">
+                    <a href="services.html">All Services</a>
+                    <a href="services.html#mechanical">Mechanical</a>
+                    <a href="services.html#electrical">Electrical</a>
+                    <a href="services.html#plumbing">Plumbing</a>
+                    <a href="services.html#automation">Automation</a>
+                </div>
+            </div>
+
+            <a href="projects.html">PROJECTS</a>
+
+            <a href="careers.html">WORK WITH US</a>
+
+            <a href="contact.html">CONTACT</a>
+
+        </nav>
+
+        <button class="menu-button" id="menuButton">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="careers.html">CAREERS</a>
+        <a href="contact.html">CONTACT</a>
+
+    </div>
+
+
+    <!-- HERO -->
+    <section class="inner-hero contact-hero">
+
+        <div class="inner-hero-content">
+
+            <span>CONTACT</span>
+
+            <h1>
+                Let's start<br>
+                <em>something.</em>
+            </h1>
+
+            <p>
+                Have a project, question, or idea?
+                We'd like to hear from you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT AREA -->
+    <section class="contact-section">
+
+
+        <div class="contact-information">
+
+            <span>GET IN TOUCH</span>
+
+            <h2>
+                Let's talk about
+                your project.
+            </h2>
+
+            <p>
+                Tell us a little about what you're working on
+                and someone from our team will get back to you.
+            </p>
+
+
+            <div class="contact-details">
+
+                <div>
+                    <span>PHONE</span>
+                    <p>(417) 555-0142</p>
+                </div>
+
+                <div>
+                    <span>EMAIL</span>
+                    <p>hello@summitsystems.com</p>
+                </div>
+
+                <div>
+                    <span>OFFICE</span>
+                    <p>
+                        3700 <br>
+                        Springfield, MO 65803
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="firstName">
+                        FIRST NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="lastName">
+                        LAST NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">
+                    EMAIL
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="company">
+                    COMPANY
+                </label>
+
+                <input
+                    type="text"
+                    id="company"
+                    name="company"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="projectType">
+                    PROJECT TYPE
+                </label>
+
+                <select
+                    id="projectType"
+                    name="projectType"
+                >
+
+                    <option value="">
+                        Select a project type
+                    </option>
+
+                    <option>
+                        Mechanical
+                    </option>
+
+                    <option>
+                        Electrical
+                    </option>
+
+                    <option>
+                        Plumbing
+                    </option>
+
+                    <option>
+                        Building Automation
+                    </option>
+
+                    <option>
+                        General Inquiry
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    MESSAGE
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="form-button"
+            >
+                SEND MESSAGE →
+            </button>
+
+
+            <p
+                id="formMessage"
+                class="form-message"
+            ></p>
+
+        </form>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta-section">
+
+        <div>
+
+            <span>SUMMIT SYSTEMS</span>
+
+            <h2>
+                Building what<br>
+                comes next.
+            </h2>
+
+        </div>
+
+        <a href="projects.html" class="cta-button">
+            SEE OUR WORK →
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-top">
+
+            <div class="footer-logo">
+                <span class="logo-symbol">MS</span>
+                Missouri State
+            </div>
+
+            <p>
+                Building the systems behind
+                what comes next.
+            </p>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Missouri State
+            </span>
+
+            <div>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
