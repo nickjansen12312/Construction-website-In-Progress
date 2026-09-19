@@ -9,18 +9,20 @@
 
 <body>
 
-<header class="site-header">
+    <header class="site-header">
 
-    <div class="header-logo">
-        <a href="index.html">
-            <img src="images/logo.png" alt="bear">
-        </a>
-    </div>
-
+        <div class="logo-area">
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">
+                    <img src="images/logo.png" alt="Missouri State Logo">
+                </span>
+                <span>Missouri State</span>
+            </a>
+        </div>
     <nav class="main-nav">
 
         <div class="nav-dropdown">
-            <a href="about.html">ABOUT <span>⌄</span></a>
+            <a href="about.html">ABOUT</a>
 
             <div class="dropdown-menu">
                 <a href="about.html">Our Story</a>
@@ -33,7 +35,7 @@
         <a href="safety.html">SAFETY</a>
 
         <div class="nav-dropdown">
-            <a href="services.html">SERVICES <span>⌄</span></a>
+            <a href="services.html">SERVICES</a>
 
             <div class="dropdown-menu">
                 <a href="services.html">All Services</a>
@@ -45,14 +47,30 @@
         </div>
 
         <a href="projects.html">PROJECTS</a>
+
         <a href="careers.html">WORK WITH US</a>
+
         <a href="contact.html">CONTACT</a>
 
     </nav>
 
-    <button class="mobile-menu-button" aria-label="Open menu">☰</button>
+        <button class="menu-button" id="menuButton">
+            ☰
+        </button>
 
-</header>
+    </header>
+
+
+    <!-- MOBILE NAVIGATION -->
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="careers.html">CAREERS</a>
+        <a href="contact.html">CONTACT</a>
+
+    </div>
 
 
 <main>
