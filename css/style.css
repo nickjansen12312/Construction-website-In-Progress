@@ -15,7 +15,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #5f0008;
-    background: #ffffff;
+    background: #F5F1E8;
 }
 
 a {
@@ -50,7 +50,7 @@ img {
 
 .logo-area {
     width: 34%;
-    background: #ffffff;
+    background: #F5F1E8;
 
     display: flex;
     align-items: center;
@@ -62,6 +62,7 @@ img {
     align-items: center;
     gap: 12px;
 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 29px;
     font-weight: 800;
     letter-spacing: -1px;
@@ -321,7 +322,7 @@ img {
 
     grid-template-columns: 25% 75%;
 
-    background: white;
+    background: #F5F1E8;
 }
 
 .intro-small {
@@ -407,7 +408,7 @@ img {
 .services-section {
     background: #30383e;
 
-    color: white;
+    color: #F5F1E8;
 
     padding: 130px 10%;
 }
@@ -524,7 +525,7 @@ img {
 
     padding: 90px 10%;
 
-    background: #f0f1ed;
+    background: #F5F1E8;
 
     gap: 40px;
 }
@@ -689,7 +690,7 @@ img {
 .cta-section {
     background: #6b705d;
 
-    color: white;
+    color: #F5F1E8;
 
     padding: 120px 12%;
 
@@ -737,7 +738,7 @@ img {
 }
 
 .cta-button:hover {
-    background: white;
+    background: #F5F1E8;
 
     color: #6b705d;
 }
@@ -750,7 +751,7 @@ img {
 footer {
     background: #5f0008;
 
-    color: white;
+    color: #F5F1E8;
 
     padding: 70px 10% 30px;
 }
@@ -1047,7 +1048,7 @@ footer {
     display: flex;
     align-items: center;
 
-    color: white;
+    color: #F5F1E8;
 }
 
 .services-hero {
@@ -1211,7 +1212,7 @@ footer {
 .values-section {
     background: #30383e;
 
-    color: white;
+    color: #F5F1E8;
 
     padding: 130px 10%;
 }
@@ -1266,7 +1267,7 @@ footer {
 
     padding: 90px 10%;
 
-    background: #f0f1ed;
+    background: #F5F1E8;
 }
 
 .about-stats div {
@@ -1348,7 +1349,7 @@ footer {
 /* SERVICE DETAILS */
 
 .service-list {
-    background: #f0f1ed;
+    background: #F5F1E8;
 }
 
 .service-detail {
@@ -1402,7 +1403,7 @@ footer {
 .service-detail li {
     padding: 10px 15px;
 
-    background: white;
+    background: #F5F1E8;
 
     font-size: 11px;
 
@@ -1431,7 +1432,7 @@ footer {
 
     margin-bottom: 100px;
 
-    background: #f0f1ed;
+    background: #F5F1E8;
 }
 
 .project-large.reverse {
@@ -1524,7 +1525,7 @@ footer {
 
     background: #30383e;
 
-    color: white;
+    color: #F5F1E8;
 
     padding: 100px 10%;
 }
@@ -1691,7 +1692,7 @@ footer {
 /* FORM */
 
 .contact-form {
-    background: #f0f1ed;
+    background: #F5F1E8;
 
     padding: 55px;
 }
@@ -1759,7 +1760,7 @@ footer {
 
     background: #30383e;
 
-    color: white;
+    color: #F5F1E8;
 
     padding: 18px 28px;
 
@@ -2069,7 +2070,7 @@ footer {
 
 
 .team-grid-section {
-    background: #f3f3f0;
+    background: #F5F1E8;
     padding: 100px 40px;
 }
 
@@ -2124,7 +2125,7 @@ footer {
 
 .large-statement {
     padding: 150px 40px;
-    background: #fff;
+    background: #F5F1E8;
 }
 
 .large-statement p {
@@ -2140,7 +2141,7 @@ footer {
 
 .values-section {
     background: #292f31;
-    color: white;
+    color: #F5F1E8;
     padding: 50px 40px;
 }
 
@@ -2262,7 +2263,7 @@ footer {
 /* ---------- SAFETY ---------- */
 
 .safety-pillars {
-    background: #f1f1ee;
+    background: #F5F1E8;
     padding: 100px 40px;
 
     display: grid;
@@ -2320,7 +2321,7 @@ footer {
 
 .career-values {
     background: #292f31;
-    color: white;
+    color: #F5F1E8;
     padding: 100px 40px;
 
     display: grid;
@@ -2404,7 +2405,7 @@ footer {
 
 
 .career-benefits {
-    background: #f1f1ee;
+    background: #F5F1E8;
     padding: 110px 40px;
 }
 
@@ -2459,7 +2460,7 @@ footer {
     display: inline-block;
     padding: 18px 30px;
     background: #292f31;
-    color: white;
+    color: #F5F1E8;
     text-decoration: none;
     font-size: 11px;
     letter-spacing: 0.12em;
