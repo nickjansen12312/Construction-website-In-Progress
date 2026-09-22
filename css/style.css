@@ -1568,17 +1568,43 @@ footer {
 }
 
 
-.jobs-section img {
-    height: auto;
-    width: 40%;
-    margin-left: 60%;
-    margin-top: -35%;
-    margin-bottom: 5%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+.jobs-heading {
+    position: relative;
 }
+
+.jobs-heading h2 {
+    max-width: 65%;
+}
+
+.find-job-picture {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25%;
+    max-width: 350px;
+}
+
+.find-job-picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .jobs-heading h2 {
+        max-width: 65%;
+    }
+
+    .find-job-picture {
+        width: 22%;
+        max-width: 120px;
+    }
+}
+
 
 .jobs-heading > span {
     font-size: 11px;
