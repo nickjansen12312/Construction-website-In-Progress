@@ -2044,32 +2044,36 @@ footer {
 
 .team-hero {
     background-image: linear-gradient(
-        rgba(20, 27, 30, 0.25),
-        rgba(20, 27, 30, 0.25)
+            90deg,
+            rgba(40,48,54,0.88),
+            rgba(40,48,54,0.30)
     ),
     url("../images/team-1.jpg");
 }
 
 .culture-hero {
     background-image: linear-gradient(
-        rgba(20, 27, 30, 0.25),
-        rgba(20, 27, 30, 0.25)
+            90deg,
+            rgba(40,48,54,0.88),
+            rgba(40,48,54,0.30)
     ),
     url("../images/culture.jpg");
 }
 
 .awards-hero {
     background-image: linear-gradient(
-        rgba(20, 27, 30, 0.25),
-        rgba(20, 27, 30, 0.25)
+            90deg,
+            rgba(40,48,54,0.88),
+            rgba(40,48,54,0.30)
     ),
     url("../images/awards.jpg");
 }
 
 .safety-hero {
     background-image: linear-gradient(
-        rgba(20, 27, 30, 0.25),
-        rgba(20, 27, 30, 0.25)
+            90deg,
+            rgba(40,48,54,0.88),
+            rgba(40,48,54,0.30)
     ),
     url("../images/safety.jpg");
 }
